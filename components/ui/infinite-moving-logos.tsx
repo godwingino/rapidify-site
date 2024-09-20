@@ -104,7 +104,7 @@ export const InfiniteMovingLogos = ({
                 alt={item.name}
                 width={1000}
                 height={1000}
-                className="w-40 md:w-30 object-contain"
+                className="w-auto h-20 md:w-50 object-cover"
               />
               
             </div>

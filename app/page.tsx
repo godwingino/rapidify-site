@@ -18,6 +18,7 @@ import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 import confetti from "canvas-confetti";
 import { ConfettiSideCannons } from "@/components/magicui/confetti";
+import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 
 
 const services = [
@@ -254,7 +255,7 @@ export default function Home() {
               </div>
             </div>
 
-            <section className="overflow-hidden mt-10 md:w-4/5">
+            <section className="overflow-hidden mt-10 md:w-4/5"> 
               <InfiniteMovingLogos
                 speed="fast"
                 direction="left"
