@@ -257,7 +257,7 @@ export default function Home() {
 
             <section className="overflow-hidden mt-10 md:w-4/5"> 
               <InfiniteMovingLogos
-                speed="fast"
+                speed="normal"
                 direction="left"
                 items={[
                   {
