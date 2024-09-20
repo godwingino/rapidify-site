@@ -76,7 +76,7 @@ export default function Home() {
       >
         <Link href={"/"}>
           <Image
-            src={"/logo/logo.webp"}
+            src={"./logo/logo.webp"}
             alt="Logo"
             width={1000}
             height={1000}
@@ -421,7 +421,7 @@ export default function Home() {
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
           <h1 className="text-3xl md:text-5xl font-medium ">
             <Image
-              src={"/logo/logo.webp"}
+              src={"./logo/logo.webp"}
               width={10000}
               height={10000}
               className="w-40"
