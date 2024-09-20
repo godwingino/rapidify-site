@@ -265,14 +265,17 @@ export default function Home() {
                     name: "Logo",
                   },
                   {
+                    logo: "/logo/figma.png",
+                    name: "Logo",
+                  },
+                  {
                     logo: "/logo/google.png",
                     name: "Logo",
                   },
-
                   {
-                    logo: "/logo/amazon.png",
+                    logo: "/logo/logo.png",
                     name: "Logo",
-                  },
+                  },          
                 ]}
               />
             </section>
