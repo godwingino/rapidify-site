@@ -195,9 +195,6 @@ export default function Home() {
             
           </div>
           
-          
-          
-
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
@@ -452,6 +449,7 @@ export default function Home() {
             Privacy Policy
           </Link>
         </div>
+        
       </footer>
     </div>
   );
